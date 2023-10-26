@@ -1,0 +1,7 @@
+.ipynb_checkpoints/
+
+datasets/*
+!datasets/jmuben/
+datasets/jmuben/*
+!datasets/jmuben/*.csv
+
