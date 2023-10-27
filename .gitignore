@@ -4,4 +4,4 @@ datasets/*
 !datasets/jmuben/
 datasets/jmuben/*
 !datasets/jmuben/*.csv
-
+cnn-artifacts
