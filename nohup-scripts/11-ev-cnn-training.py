@@ -534,6 +534,10 @@ for dataset in models_datasets:
         save_weights_only=True, 
         mode="max")
     
+    # Defining parameters based on dataset
+    step_per_epoch = len(train_generator)
+    validation_steps = len(validation_generator)
+    
     # Creating and compiling model
     shuffle_net = sn_bracol()
         
@@ -545,13 +549,20 @@ for dataset in models_datasets:
     shuffle_net.compile(loss="categorical_crossentropy", optimizer=optimizers.RMSprop(learning_rate=1e-4), metrics=["acc"])
     shuffle_net.summary()
     
-    # Defining parameters based on dataset
-    step_per_epoch = len(train_generator)
-    validation_steps = len(validation_generator)
-    
     # Train with Early Stopping callback
     callbacks_es = [csv_logger_es, early_stopping, model_checkpoint_es]
     train_test_early_stopping(shuffle_net, train_generator, step_per_epoch, validation_generator, validation_steps, callbacks_es, ARTIFACTS_PATH, PATH_EVALUATIONS_EV, checkpoints_path, dataset, True)
+    
+    # Creating and compiling model
+    shuffle_net = sn_bracol()
+        
+    if "plant" in dataset:
+        shuffle_net = sn_plant_patologies()
+    elif "rocole" in dataset:
+        shuffle_net = sn_rocole()
+        
+    shuffle_net.compile(loss="categorical_crossentropy", optimizer=optimizers.RMSprop(learning_rate=1e-4), metrics=["acc"])
+    shuffle_net.summary()
     
     # Train without Early Stopping callback
     callbacks_no_es = [csv_logger, model_checkpoint]
