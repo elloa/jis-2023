@@ -2,6 +2,10 @@
 # JIS 2023
 Research Artifact Repository: Coffee Plant Leaf Disease Detection for Digital Agriculture
 
+
+![https://doi.org/10.5281/zenodo.10056491)](https://zenodo.org/badge/DOI/10.5281/zenodo.10056491.svg)
+
+
 ## Repository Description
 The Research Artifact Repository "JIS 2023", associated to "Coffee Plant Leaf Disease Detection for Digital Agriculture" article serves as a centralized and organized source of all data, codes, models, and results generated during the scientific research process dedicated to detecting diseases in coffee plant leaves, aiming to drive digital agriculture. This repository constitutes a comprehensive collection of resources that were utilized, developed, and refined throughout the research process, providing a detailed insight into the research methodology and the outcomes achieved.
 
