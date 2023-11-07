@@ -102,5 +102,5 @@ We hope this repository proves valuable for your research endeavors. Thank you f
 
 ## Authors
 
-- [@laisdib](https://github.com/laisdib)
-- [@elloa](https://github.com/elloa)
+- Laís Dib Albuquerque: [@laisdib](https://github.com/laisdib)
+- Elloá B. Guedes: [@elloa](https://github.com/elloa)
