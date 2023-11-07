@@ -41,12 +41,12 @@ Before you can start using the resources within the "Coffee Plant Leaf Disease D
 2. Click on the "Download" or "Code" button, then select "Download ZIP";
 3. Once the ZIP file is downloaded, extract its contents to a location of your choice on your computer.
 
-### Step 2: Installing Required Software:**
+### Step 2: Installing Required Software:
 Ensure that you have the following software installed on your system:
 - **Python:** Check if Python is installed by opening a terminal or command prompt and typing `python --version` or `python3 --version`. If not installed, download and install Python from the official website (https://www.python.org/downloads/).
 - **Package Manager (pip):** Pip usually comes pre-installed with Python. You can verify its presence by typing `pip --version` in the terminal or command prompt. If not available, you can install it by following the instructions on the official website (https://pip.pypa.io/en/stable/installing/).
 
-### Step 3: Setting Up Virtual Environment (Optional but Recommended)**
+### Step 3: Setting Up Virtual Environment (Optional but Recommended)
 It's good practice to work within a virtual environment to manage dependencies. To set up a virtual environment, follow these commands in the terminal or command prompt:
 ```bash
 # Install virtualenv (if not already installed)
