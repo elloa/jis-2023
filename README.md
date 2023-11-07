@@ -7,7 +7,7 @@ Research Artifact Repository: Coffee Plant Leaf Disease Detection for Digital Ag
 
 
 ## Repository Description
-The Research Artifact Repository "JIS 2023", associated to "Coffee Plant Leaf Disease Detection for Digital Agriculture" article serves as a centralized and organized source of all data, codes, models, and results generated during the scientific research process dedicated to detecting diseases in coffee plant leaves, aiming to drive digital agriculture. This repository constitutes a comprehensive collection of resources that were utilized, developed, and refined throughout the research process, providing a detailed insight into the research methodology and the outcomes achieved.
+The Research Artifact Repository "JIS 2023", associated to "Coffee Plant Leaf Disease Detection for Digital Agriculture" article, serves as a centralized and organized source of all data, codes, models, and results generated during the scientific research process dedicated to detecting diseases in coffee plant leaves, aiming to drive digital agriculture. This repository constitutes a comprehensive collection of resources that were utilized, developed, and refined throughout the research process, providing a detailed insight into the research methodology and the outcomes achieved.
 
 
 ## Repository Contents
@@ -22,7 +22,8 @@ The Research Artifact Repository "JIS 2023", associated to "Coffee Plant Leaf Di
 
 #### 3. Machine Learning Models
 - Trained Multi-layer Perceptron (MLP) Artificial Neural Networks (ANN) and Convolucional Neural Network (CNN) models for detecting specific diseases in coffee leaves;
-- Training logs.
+- Training logs;
+- CNN Artifacts: to access the artifacts of the trained CNNs, including weights, checkpoints, and training/validation logs, please find [here](https://cnn-artifacts.s3.sa-east-1.amazonaws.com/cnn-artifacts.zip) the link to download the .zip file containing this information.
 
 #### 4. Results and Evaluations
 - CSV metrics files.
@@ -85,7 +86,20 @@ Renaming these folders correctly ensures that the code can access the necessary 
 
 ### Step 6: First-time Execution
 By following these steps, you have successfully downloaded the repository, prepared your system, and are ready to explore and execute the research code for coffee plant leaf disease detection in the context of digital agriculture.
-    
+
+## Additional Information
+
+### License
+This repository is provided under the [License Name] license. Please refer to the LICENSE file for more details.
+
+### Contato
+For inquiries or additional information, please contact us via email: [lda.snf20@uea.edu.br] and [ebgcosta@uea.edu.br].
+
+### Acknowledgements
+The authors would like to express their gratitude for the financial support provided by the National Council for Scientific and Technological Development (CNPq) and the Research Support Foundation of the State of Amazonas (FAPEAM), respectively, through the PAIC programs for the years 2021/2022 and 2022/2023. They also acknowledge the material support received from the Laboratory of Intelligent Systems (LSI) at the Amazonas State University (UEA).
+
+We hope this repository proves valuable for your research endeavors. Thank you for utilizing our artifacts!
+
 ## Authors
 
 - [@laisdib](https://github.com/laisdib)
