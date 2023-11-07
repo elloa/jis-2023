@@ -90,10 +90,10 @@ By following these steps, you have successfully downloaded the repository, prepa
 ## Additional Information
 
 ### License
-This repository is provided under the [License Name] license. Please refer to the LICENSE file for more details.
+This repository is provided under the **Creative Commons CC0 1.0 Universal** license. Please refer to the LICENSE file for more details.
 
-### Contato
-For inquiries or additional information, please contact us via email: [lda.snf20@uea.edu.br] and [ebgcosta@uea.edu.br].
+### Contact
+For inquiries or additional information, please contact us via email: [Laís Dib Albuquerque](mailto:lda.snf20@uea.edu.br) and [Elloá B. Guedes](ebgcosta@uea.edu.br).
 
 ### Acknowledgements
 The authors would like to express their gratitude for the financial support provided by the National Council for Scientific and Technological Development (CNPq) and the Research Support Foundation of the State of Amazonas (FAPEAM), respectively, through the PAIC programs for the years 2021/2022 and 2022/2023. They also acknowledge the material support received from the Laboratory of Intelligent Systems (LSI) at the Amazonas State University (UEA).
